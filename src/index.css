@@ -20,14 +20,14 @@
 
 @font-face {
   font-family: 'SF-Pro';
-  src: url('./assets/fonts/SFProText-Regular.ttf');
+  src: url('./assets/fonts/SFProText-Regular.woff2') format('woff2'), url('./assets/fonts/SFProText-Regular.woff') format('woff'), url('./assets/fonts/SFProText-Regular.ttf') format('truetype');
   font-display: swap;
   font-style: normal;
   font-weight: 400;
 }
 @font-face {
   font-family: 'SF-Pro-Semibold';
-  src: url('./assets/fonts/SFProText-Semibold.ttf');
+  src: url('./assets/fonts/SFProText-Semibold.woff2') format('woff2'), url('./assets/fonts/SFProText-Semibold.woff') format('woff'), url('./assets/fonts/SFProText-Semibold.ttf') format('truetype');
   font-display: swap;
   font-style: normal;
   font-weight: 600;
