@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  
+  --red-color: #FF4D4F;
+  --blue-color: #1677FF;
+  --light-blue-color: #E6F4FF;
+  --grey-color: #D9D9D9;
+  --light-grey-color: #F5F5F5;
+  --dark-grey-color: rgba(0, 0, 0, 0.25);
+  --white-color: white;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'SF-Pro';
+  src: url('./assets/fonts/SFProText-Regular.ttf');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'SF-Pro-Semibold';
+  src: url('./assets/fonts/SFProText-Semibold.ttf');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 600;
+}
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--light-grey-color);
+  font-family: 'SF-Pro';
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+
+.title {
+  font-family: 'SF-Pro-Semibold';
+  font-size: 24px;
+  line-height: 1.32em;
+  text-align: center;
+}
+
+.logo_mb {
+  margin-bottom: 24px;
+}
+
+@media(max-width: 450px) {
+  #root {
+    padding: 1rem 0rem;
+  }
+  .title {
+    font-size: 18px;
+  }
+}
+@media(max-width: 320px) {
+  #root {
+    padding: 1rem 0.5rem 1rem 0rem;
+  }
+  .title {
+    font-size: 18px;
+  }
+}

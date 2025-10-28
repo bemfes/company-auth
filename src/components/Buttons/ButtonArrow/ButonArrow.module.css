@@ -1,0 +1,13 @@
+.btn {
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.btnPosition {
+    position: absolute;
+    top: 36px;
+    left: 22px;
+}
+

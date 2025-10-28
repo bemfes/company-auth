@@ -1,0 +1,38 @@
+.input {
+    border-radius: 8px;
+    border: 1px solid VAR(--grey-color);
+    height: 62px;
+    width: 52px;
+    padding: 10px;
+    font-size: 24px;
+    font-family: 'SF-Pro-Semibold';
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+}
+
+.input:focus {
+    border: 1px solid var(--blue-color);
+    outline: 1px solid var(--light-blue-color);
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    
+    
+}
+
+@media(max-width: 450px) {
+    .input {
+        height: 42px;
+        width: 33px;
+        padding: 9px;
+        font-size: 20px;
+    }
+}

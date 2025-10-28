@@ -1,0 +1,39 @@
+.input {
+    border-radius: 8px;
+    border: 1px solid var(--grey-color);
+    height: 40px;
+    width: 100%;
+    padding: 8px 11px 8px 31px;
+    font-size: 16px;
+    font-family: 'SF-Pro';
+}
+
+
+.input:focus {
+    border: 1px solid var(--blue-color);
+    outline: 1px solid var(--light-blue-color);
+}
+
+.input[type="password"]  {
+    -webkit-text-security: disc; 
+}
+
+
+.inputBox {
+    width: 100%;
+    position: relative;
+}
+
+.inputBox:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.icon {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    object-fit: cover;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 11px;
+}

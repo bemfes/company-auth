@@ -1,0 +1,15 @@
+.mainWindow {
+    background: var(--white-color);
+    border-radius: 6px;
+    padding: 50px 32px 32px 32px;
+    position: relative;
+}
+
+@media(max-width: 450px) {
+    .mainWindow {
+        padding: 50px 12px 12px 12px;
+        position: relative;
+        max-width: 280px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,23 @@
+.title {
+    margin-bottom: 4px;
+}
+.text {
+    margin-bottom: 24px;
+}
+
+.mt {
+    margin-top: 16px;
+}
+
+.invalidCodeText {
+    color: var(--red-color);
+    margin-top: 6px;
+    text-align: left;
+    line-height: 22px;
+}
+
+@media(max-width: 450px) {
+    .text br {
+        display: none;
+    }
+}

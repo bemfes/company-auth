@@ -1,0 +1,13 @@
+.title {
+    margin-bottom: 24px;
+}
+
+.inputsBox {
+    margin-bottom: 57px;
+}
+
+.invalidText {
+    color:#FF4D4F;
+    text-align: left;
+    margin-bottom: 16px;
+}
